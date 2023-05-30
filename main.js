@@ -183,7 +183,7 @@ function gameset() {
         function createCarrot() {
             const carrot = document.createElement('img');
             carrot.setAttribute('class', 'carrot');
-            carrot.setAttribute('src', '../img/carrot.png');
+            carrot.setAttribute('src', 'https://taehyunkim3.github.io/carrotgame1/img/carrot.png');
             carrot.setAttribute('data-id', carrotId);
             const bottom = randomBottom();
             const left = randomLeft(); //백틱 안에 function의 값은 들어갈 수 없음.
@@ -209,7 +209,7 @@ function gameset() {
 
         function createBug() {
             const bug = document.createElement('img');
-            bug.setAttribute('src', '../img/bug.png');
+            bug.setAttribute('src', 'https://taehyunkim3.github.io/carrotgame1/img/bug.png');
             bug.setAttribute('class', 'bug');
             bug.setAttribute('data-id', bugId);
             const bottom = randomBottom();
